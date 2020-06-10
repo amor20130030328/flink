@@ -17,14 +17,14 @@ object SourceApi {
       SensorReading("sensor_10", 1547718205, 38.101067604893444)))
     stream.print().setParallelism(6)
 
-    environment.execute("SourceApiTest")
 
-  /*  //从文件中读取
-    val stream2 = environment.readTextFile("input/textFile")
+
+   //从文件中读取
+    val stream2 = environment.readTextFile("input/sensor.txt")
 
     stream2.print()
 
-    environment.execute("SourceApiTest")*/
+    environment.execute("SourceApiTest")
 
 
 
