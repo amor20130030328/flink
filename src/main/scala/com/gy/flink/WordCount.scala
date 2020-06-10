@@ -10,7 +10,7 @@ object WordCount {
     //从外部命令中获取参数
    val tool: ParameterTool = ParameterTool.fromArgs(args)
     val host:String = tool.get("host")
-    val port:Int = tool.get("port").toInt
+     val port:Int = tool.get("port").toInt
 
     //创建流处理环境
     val streaming = StreamExecutionEnvironment.getExecutionEnvironment
